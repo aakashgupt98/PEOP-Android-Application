@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="10dp"
-    android:paddingRight="11dp">
+    android:paddingRight="11dp"
+    android:orientation="horizontal">
 
 
     <ScrollView
@@ -58,6 +59,12 @@
                 android:maxLines="1"
                 android:padding="8dp" />
 
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/department"></Spinner>
+
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
@@ -107,15 +114,7 @@
                     android:textAllCaps="false" />
             </LinearLayout>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Faculty Registration"
-                android:layout_marginTop="4dp"
-                android:clickable="true"
-                android:padding="16dp"
-                android:id="@+id/facultyRegister"/>
+
 
 
         </LinearLayout>
